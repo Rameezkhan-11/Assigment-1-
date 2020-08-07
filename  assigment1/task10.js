@@ -1,0 +1,12 @@
+var nan;
+document.write("<h1>Value after variable declaraion is " + nan +".</h1>");
+nan = 5;
+document.write("<h1> Inital value: " + nan + ".<h1>");
+nan = ++nan;
+document.write("<h1> Value after increment is " + nan);
+nan = nan + 7;
+document.write("<h1> Value after addition  " + nan);
+nan = --nan;
+document.write("<h1> Value after decrment is " + nan);
+nan = 12 % 3;
+document.write("<h1> The reminder value is " + nan);
