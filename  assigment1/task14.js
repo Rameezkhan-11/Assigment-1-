@@ -2,7 +2,8 @@ var a = 2;
 var b = 1; 
  var result = --a - --b + ++b + b--;
 --a;
-document.write(" a  is " + a )
+document.write(" a  is " + a );
+document.write("<br> b is " + b);
 --a - --b;
 document.write("<br> a is " + a);
 document.write("<br> b is " + b);
