@@ -6,7 +6,7 @@ if (guessGame === secretNumber){
     alert("Bingo! Correct Answer");
 
 }
-else if (guessGame += secretNumber){
-    alert("Close enough to the correct answer");
-
+ secretNumber = ++secretNumber;
+if (guessGame === secretNumber){
+    alert("Close enough to secret number");
 }
