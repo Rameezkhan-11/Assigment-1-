@@ -1,10 +1,11 @@
   var marksObtainedInThreeSubjects = (Number (prompt("Tell me marks obtained in three subjects")));
     var totalMarks = (Number (prompt("Tell me total marks")));
-    var percentage = (marksObtainedInThreeSubjects / totalMarks) * 100;
+    var percentage = marksObtainedInThreeSubjects / totalMarks * 100;
+    var per = percentage.toFixed(2);
    document.write("<h1> Mark Sheet</h1>");
     document.write(" <br> Total Marks: " + totalMarks );
     document.write(" <br> Marks obtained: " + marksObtainedInThreeSubjects  );
-    document.write("<br> Percentage: " + percentage );
+    document.write("<br> Percentage: " + per );
 if (percentage >= 80){
     document.write("<br>  Grade: A1 <br> Remarks: Excellent ");
 }
