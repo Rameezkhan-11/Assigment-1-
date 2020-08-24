@@ -5,18 +5,9 @@ var checkInput = userInput.toLowerCase();
 if (checkInput === ""){
     document.write(colours);
 }
-
-if (checkInput == colours[0]) {
-    document.write(colours);
-     
-}   
-    else if (checkInput == colours[1]){
-         document.write(colours[1] + " " + "  "  +colours[0]+ "  " + colours[2]);
-
-    
-    }
-else if (checkInput == colours[2]){
-    document.write(colours[2] +" " + " " +colours[0]+"  " +colours[1]);
+if (checkInput){
+    colours.shift
+document.write(checkInput + "  " + colours);
 }
 
 
