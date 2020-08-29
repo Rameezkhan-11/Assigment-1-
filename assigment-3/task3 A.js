@@ -1,6 +1,6 @@
 var colours = ["red", "yellow","green"];
 
-var userInput= prompt("what colour you want to add in beginning");
+var userInput= prompt("what colour you want to add in beginning???");
 var checkInput = userInput.toLowerCase();
 if (checkInput === ""){
     document.write(colours);

@@ -1,7 +1,6 @@
-var colours = ["orange","black","blue"];
-var userInput = prompt("What colour you want to add in end??? ");
-var checkInput = userInput.toLowerCase();
-if (checkInput){
-    colours.push(checkInput);
-    document.write(colours);
-}
+var cities = ["Karachi", "Islamabad","Lahore","Peshawar","Quetta"];
+document.write("Before: " +cities);
+var selectedCities = [cities.slice(0,3)];
+
+
+document.write("<br>Copied elements from cites array: " +selectedCities);
