@@ -1,0 +1,27 @@
+.index, .about, .porfolio, .contact{
+margin-left: 20px; 
+font-size: 20px;
+text-align: center;
+} 
+nav{
+    text-align: center;
+    line-height: 2em;
+}
+.front{
+    background:  #5094D9; 
+    border-radius: 1em;
+    max-height: 100px;
+}
+.homeimg{
+    padding-top: 40px;
+
+}
+.body{
+    width: 900px;
+}
+.frontimg{
+    height: 80px;
+    margin-left:20px ;
+    
+    margin-bottom: 10px;
+}
