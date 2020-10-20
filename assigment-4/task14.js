@@ -6,9 +6,5 @@ document.write("<h1> Current Date and Time: "+ time+  " </h1>");
 
 // console.log(hour);
 
-
-var newTime = new Date();
-newTime.setHours(-1);
-document.write("<br> <h1>1 Hour ago, it was: " +newTime + " </h1>");
-
-console.log(time.getHours() - 1);
+//  time.setHours(16);
+var yes =  console.log(time - time.getHours(-1) * 1000 * 60 * 60 * 24);    
