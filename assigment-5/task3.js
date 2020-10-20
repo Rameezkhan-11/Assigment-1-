@@ -1,5 +1,5 @@
 var userInput = prompt("Write a word i will tell you its palindrome or not");
-var found = true;
+
 function palindrome(){
 for(var i = 0; i < userInput.length; i++){
  
