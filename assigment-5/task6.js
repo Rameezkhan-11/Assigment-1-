@@ -1,6 +1,6 @@
-var a = [1,2,3,4];
+function mirror(a){
 
 
 
-
-
+}
+mirror ([0,1,2,3])
